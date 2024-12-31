@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-security-start
+
+  security:
+    user:
+      name: user
+      password: password
+      roles: USER,ADMIN
