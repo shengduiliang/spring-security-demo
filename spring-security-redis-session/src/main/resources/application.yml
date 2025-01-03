@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-security-redis-session
+  security:
+    user:
+      name: user
+      password: password
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
